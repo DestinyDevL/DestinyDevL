@@ -57,11 +57,9 @@
 
 ---
 
-## ✨ 项目亮点 | Featured Projects
+## 📊 活跃图 | Activity Graph
 
-- 🔭 [**AwesomeProject**](#) - 高性能 AI 工具集成平台  
-- 🧪 [**EvalBench**](#) - 模型评估与可视化框架  
-- 🔌 [**RAG-Playground**](#) - 可配置 RAG 实验平台  
+![GitHub Activity Graph](https://github-readme-activity-graph.cyclic.app/graph?username=DestinyDevL&theme=react-dark&area=true)
 
 ---
 
