@@ -62,7 +62,11 @@
 ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=DestinyDevL&theme=react-dark&area=true)
 
 ---
+## 🏆 GitHub Trophy
 
+![trophy](https://github-profile-trophy.vercel.app/?username=DestinyDevL&theme=darkhub&margin-w=10)
+
+---
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=182848&height=100&section=footer" />
 </p>
