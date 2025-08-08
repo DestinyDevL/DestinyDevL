@@ -1,0 +1,28 @@
+name: Daily README Update
+
+on:
+  schedule:
+    - cron: "30 23 * * *"   # 每天 23:30 UTC 运行（纽约时间晚间）
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Update last updated timestamp
+        run: |
+          NOW="$(TZ=America/New_York date '+%Y-%m-%d %H:%M %Z')"
+          sed -i "s|<!--LAST_UPDATED-->.*<!--/LAST_UPDATED-->|<!--LAST_UPDATED-->${NOW}<!--/LAST_UPDATED-->|" README.md
+          echo "Updated timestamp to: $NOW"
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore(readme): daily timestamp update"
+          file_pattern: README.md
