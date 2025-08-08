@@ -59,7 +59,7 @@
 
 ## 📊 活跃图 | Activity Graph
 
-![GitHub Activity Graph](https://github-readme-activity-graph.cyclic.app/graph?username=DestinyDevL&theme=react-dark&area=true)
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=DestinyDevL&theme=react-dark&area=true)
 
 ---
 
