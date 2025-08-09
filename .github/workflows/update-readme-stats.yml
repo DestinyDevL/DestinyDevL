@@ -9,5 +9,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Generate GitHub Stats
-        uses: anuraghazra/github-readme-stats@master
+      - uses: jamesgeorge007/github-activity-readme@master
+        with:
+          COMMIT_MSG: "Update README with the recent activity"
+
