@@ -2,8 +2,8 @@ name: Update GitHub Readme Stats
 
 on:
   schedule:
-    - cron: "0 */24 * * *" # 每 24 小时运行一次
-  workflow_dispatch: # 可手动触发
+    - cron: "0 */24 * * *"
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -12,13 +12,13 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
       - uses: jamesgeorge007/github-activity-readme@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           GH_USERNAME: DestinyDevL
           COMMIT_MSG: "Update README with the recent activity"
-          TARGET_FILE: ../README.md
-
-
-        
+          TARGET_FILE: README.md
