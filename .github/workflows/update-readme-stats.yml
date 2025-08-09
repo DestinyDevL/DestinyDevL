@@ -18,6 +18,7 @@ jobs:
         with:
           GH_USERNAME: DestinyDevL
           COMMIT_MSG: "Update README with the recent activity"
+          TARGET_FILE: README.md
 
 
         
