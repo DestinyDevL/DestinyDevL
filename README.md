@@ -51,6 +51,8 @@
 ## 🕓 最近动态 | Recent Activity
 
 <!--START_SECTION:activity-->
+1. ❌ Closed PR [#1](https://github.com/DestinyDevL/microfast/pull/1) in [DestinyDevL/microfast](https://github.com/DestinyDevL/microfast)
+2. 💪 Opened PR [#1](https://github.com/DestinyDevL/microfast/pull/1) in [DestinyDevL/microfast](https://github.com/DestinyDevL/microfast)
 <!--END_SECTION:activity-->
 
 <!--（需启用 GitHub Actions。推荐插件：[readme-activity-graph](https://github.com/Ashutosh00710/github-readme-activity-graph)）-->
