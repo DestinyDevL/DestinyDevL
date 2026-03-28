@@ -51,8 +51,8 @@
 ## 🕓 最近动态 | Recent Activity
 
 <!--START_SECTION:activity-->
-1. ❌ Closed PR [#1](https://github.com/DestinyDevL/microfast/pull/1) in [DestinyDevL/microfast](https://github.com/DestinyDevL/microfast)
-2. 💪 Opened PR [#1](https://github.com/DestinyDevL/microfast/pull/1) in [DestinyDevL/microfast](https://github.com/DestinyDevL/microfast)
+1. 🗣 Commented on [#1820](https://github.com/chen08209/FlClash/issues/1820#issuecomment-4141421637) in [chen08209/FlClash](https://github.com/chen08209/FlClash)
+2. ❌ Closed PR [#1](https://github.com/DestinyDevL/microfast/pull/1) in [DestinyDevL/microfast](https://github.com/DestinyDevL/microfast)
 <!--END_SECTION:activity-->
 
 <!--（需启用 GitHub Actions。推荐插件：[readme-activity-graph](https://github.com/Ashutosh00710/github-readme-activity-graph)）-->
